@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLeaderboardMockup", "GameLeaderboardMockup.csproj", "{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4E3E03-7B0C-4E60-BCC7-121B1DC5790B}
+	EndGlobalSection
+EndGlobal

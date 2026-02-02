@@ -1,0 +1,98 @@
+﻿@using System.Linq
+@using GameLeaderboardMockup.Data
+
+@{
+    ViewData["Title"] = "Game Leaderboard";
+    var players = (List<Player>)ViewBag.Players;
+    var topPlayer = players
+        .OrderByDescending(p => p.PersonalBest)
+        .FirstOrDefault();
+}
+
+
+<div class="container mt-5">
+
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">
+            <i class="bi bi-trophy-fill"></i> Game Leaderboard & Achievements
+        </h2>
+        <p class="text-muted">Submit your scores and see top players!</p>
+    </div>
+
+    <div class="card shadow-sm mb-5 p-4" id="submissionFormSection">
+        <h5 class="fw-bold text-success mb-3"><i class="bi bi-pencil-square"></i> Submit Your Score</h5>
+        
+        <form asp-action="SubmitScore" asp-controller="Home" method="post" class="row g-3">
+            <div class="col-md-4">
+                <select name="playerId" class="form-select" id="mainPlayerSelect" required>
+                    <option value="" selected disabled>Select Player</option>
+                    @foreach (var p in players)
+                    {
+                        <option value="@p.Id">@p.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-4">
+                <input name="score" type="number" class="form-control" placeholder="Enter Score" required min="0">
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-success w-100">
+                    <i class="bi bi-send-fill"></i> Submit
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="card shadow-sm mb-5 p-4 bg-light border-0">
+        <h5 class="fw-bold text-warning mb-3"><i class="bi bi-person-circle"></i> Quick Stats</h5>
+        @if (topPlayer != null)
+        {
+            <p class="mb-1">Player: <strong>@topPlayer.Name</strong></p>
+            <p class="mb-1">Personal Best: <strong>@topPlayer.PersonalBest</strong></p>
+            <p>
+                Achievements unlocked:
+                <strong>@topPlayer.Achievements.Count / 3</strong>
+            </p>
+        }
+
+    </div>
+
+    <div class="text-center mb-4">
+        <h3 class="fw-bold text-primary"><i class="bi bi-trophy-fill"></i> Global Leaderboard</h3>
+        <p class="text-muted">Top players ranked by personal best</p>
+    </div>
+
+    <div class="row">
+        @foreach (var p in players.OrderByDescending(x => x.PersonalBest))
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow border-0 h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-person-circle fs-1 text-secondary"></i>
+                        <h5 class="card-title mt-2">@p.Name</h5>
+                        <span class="badge bg-success mb-2">
+                            <i class="bi bi-star-fill"></i> @p.PersonalBest
+                        </span>
+                        <br />
+                        <a href="/Home/Profile/@p.Id" class="btn btn-outline-primary btn-sm mt-2">
+                            <i class="bi bi-eye"></i> View Profile
+                        </a>
+                        
+                        <button type="button" class="btn btn-outline-success btn-sm mt-2" 
+                                onclick="document.getElementById('mainPlayerSelect').value='@p.Id'; window.scrollTo({ top: 0, behavior: 'smooth' });">
+                            <i class="bi bi-plus-circle"></i> Submit Score
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="text-center mt-5 mb-5 pt-4 border-top">
+        <p class="small text-muted mb-2">System Administration</p>
+        <a asp-action="AuditLog" asp-controller="Home" class="btn btn-outline-primary btn-sm">
+            <i class="bi bi-shield-lock-fill"></i> View Audit Log
+        </a>
+    </div>
+
+</div>

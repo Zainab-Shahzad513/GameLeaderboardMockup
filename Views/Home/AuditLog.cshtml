@@ -1,0 +1,52 @@
+@model List<GameLeaderboardMockup.Models.IScoreCommand>
+
+@{
+    ViewData["Title"] = "System Audit Log";
+}
+
+<div class="container mt-5">
+    <div class="card shadow border-0 p-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="fw-bold text-primary m-0">
+                <i class="bi bi-shield-lock-fill"></i> System Audit Log
+            </h2>
+            <span class="badge bg-light text-dark border">Total Records: @Model.Count</span>
+        </div>
+
+        <p class="text-muted">Traceability Report: This log tracks every score submission attempt.</p>
+
+        <div class="table-responsive">
+            <table class="table table-hover mt-3 align-middle">
+                <thead>
+                    <tr>
+                        <th class="text-success">Timestamp</th>
+                        <th class="text-success">Player ID</th>
+                        <th class="text-success">Score Attempted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var log in Model)
+                    {
+                        <tr>
+                            <td><i class="bi bi-clock-history me-2"></i>@log.Timestamp.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td><span class="badge bg-success text-white">ID: @log.PlayerId</span></td>
+                            <td class="text-black">@log.Score</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @if (Model.Count == 0)
+        {
+            <div class="text-center py-5">
+                <i class="bi bi-inbox text-muted fs-1"></i>
+                <p class="text-muted mt-2">No audit records found yet. Submit a score to see it logged!</p>
+            </div>
+        }
+
+        <div class="mt-4 text-center">
+            <a href="/" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Return to Leaderboard</a>
+        </div>
+    </div>
+</div>

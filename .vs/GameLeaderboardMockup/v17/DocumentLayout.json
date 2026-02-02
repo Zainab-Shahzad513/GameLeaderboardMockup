@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|d:\\1.uni\\5th  semester\\sda\\project\\gameleaderboardmockup\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|solutionrelative:views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|d:\\1.uni\\5th  semester\\sda\\project\\gameleaderboardmockup\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|d:\\1.uni\\5th  semester\\sda\\project\\gameleaderboardmockup\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|d:\\1.uni\\5th  semester\\sda\\project\\gameleaderboardmockup\\models\\scorecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|solutionrelative:models\\scorecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|d:\\1.uni\\5th  semester\\sda\\project\\gameleaderboardmockup\\models\\auditlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|solutionrelative:models\\auditlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|d:\\1.uni\\5th  semester\\sda\\project\\gameleaderboardmockup\\models\\achievementobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81FB9412-6534-8BCE-4EC6-55FB52FFE26F}|GameLeaderboardMockup.csproj|solutionrelative:models\\achievementobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T04:46:41.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Profile.cshtml",
+              "ToolTip": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Home\\Profile.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T04:46:38.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwGEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T04:46:04.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreCommand.cs",
+              "DocumentMoniker": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Models\\ScoreCommand.cs",
+              "RelativeDocumentMoniker": "Models\\ScoreCommand.cs",
+              "ToolTip": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Models\\ScoreCommand.cs",
+              "RelativeToolTip": "Models\\ScoreCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T04:43:49.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuditLogger.cs",
+              "DocumentMoniker": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Models\\AuditLogger.cs",
+              "RelativeDocumentMoniker": "Models\\AuditLogger.cs",
+              "ToolTip": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Models\\AuditLogger.cs",
+              "RelativeToolTip": "Models\\AuditLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T04:42:55.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AchievementObserver.cs",
+              "DocumentMoniker": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Models\\AchievementObserver.cs",
+              "RelativeDocumentMoniker": "Models\\AchievementObserver.cs",
+              "ToolTip": "D:\\1.Uni\\5th  Semester\\SDA\\Project\\GameLeaderboardMockup\\Models\\AchievementObserver.cs",
+              "RelativeToolTip": "Models\\AchievementObserver.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T04:42:12.386Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

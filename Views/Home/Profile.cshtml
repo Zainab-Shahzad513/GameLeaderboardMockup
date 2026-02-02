@@ -1,0 +1,51 @@
+@{
+    var player = ViewBag.Player;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 p-4">
+        <!-- Player Header -->
+        <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-person-badge fs-1 text-primary me-3"></i>
+            <div>
+                <h3 class="mb-0">@player.Name</h3>
+                <small class="text-muted">Player Profile</small>
+            </div>
+        </div>
+
+        <!-- Personal Best -->
+        <p class="fs-5">
+            <i class="bi bi-graph-up-arrow text-success"></i>
+            Personal Best: <strong>@player.PersonalBest</strong>
+        </p>
+
+        <hr />
+
+        <!-- Achievements Section -->
+        <h5 class="fw-bold mb-2">
+            <i class="bi bi-award-fill text-warning"></i> Achievements
+        </h5>
+
+        @if (player.Achievements != null && player.Achievements.Count > 0)
+        {
+            <ul class="list-group mt-2">
+                @foreach (var achievement in player.Achievements)
+                {
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        @achievement
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p class="text-muted mt-2"><i class="bi bi-x-circle"></i> No achievements yet.</p>
+        }
+
+        <!-- Back Button -->
+        <a href="/" class="btn btn-secondary mt-4">
+            <i class="bi bi-arrow-left"></i> Back to Leaderboard
+        </a>
+    </div>
+</div>
